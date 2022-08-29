@@ -30,7 +30,6 @@ namespace LogicalPrograms
             {
                 Console.WriteLine(num + " is not a Pefect Number ");
             }
-            }
         }
     }
 }
