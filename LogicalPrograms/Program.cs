@@ -10,6 +10,7 @@ namespace LogicalPrograms
             Console.WriteLine("1. Fibonacci Series");
             Console.WriteLine("2. Perfect Series");
             Console.WriteLine("3. Prime Number Series");
+            Console.WriteLine("4. Reverse Nnumber Series");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -27,6 +28,11 @@ namespace LogicalPrograms
                     Console.WriteLine("3. Prime Number Series");
                     Prime prime = new Prime();
                     prime.Series();
+                    break;
+                case 4:
+                    Console.WriteLine("4. Reverse Nnumber Series");
+                    Reverse reverse = new Reverse();
+                    reverse.Series();
                     break;
                 default:
                     break;
