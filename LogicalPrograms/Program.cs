@@ -11,6 +11,7 @@ namespace LogicalPrograms
             Console.WriteLine("2. Perfect Series");
             Console.WriteLine("3. Prime Number Series");
             Console.WriteLine("4. Reverse Nnumber Series");
+            Console.WriteLine("5. Converting Temperature");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -33,6 +34,11 @@ namespace LogicalPrograms
                     Console.WriteLine("4. Reverse Nnumber Series");
                     Reverse reverse = new Reverse();
                     reverse.Series();
+                    break;
+                case 5:
+                    Console.WriteLine("5. Converting Temperature");
+                    Temperature temperature = new Temperature();
+                    temperature.Temp();
                     break;
                 default:
                     break;
