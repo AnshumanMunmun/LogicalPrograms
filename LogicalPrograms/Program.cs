@@ -13,6 +13,7 @@ namespace LogicalPrograms
             Console.WriteLine("4. Reverse Nnumber Series");
             Console.WriteLine("5. Converting Temperature");
             Console.WriteLine("6. Coupan Numbers");
+            Console.WriteLine("7. Days Of Week");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -45,6 +46,11 @@ namespace LogicalPrograms
                     Console.WriteLine("6. Coupan Numbers");
                     Coupan coupan = new Coupan();
                     coupan.Dist();
+                    break;
+                case 7:
+                    Console.WriteLine("7. Days Of Week");
+                    DayOfWeek dayOfWeek = new DayOfWeek();
+                    dayOfWeek.Days();
                     break;
                 default:
                     break;
