@@ -12,6 +12,7 @@ namespace LogicalPrograms
             Console.WriteLine("3. Prime Number Series");
             Console.WriteLine("4. Reverse Nnumber Series");
             Console.WriteLine("5. Converting Temperature");
+            Console.WriteLine("6. Coupan Numbers");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -39,6 +40,11 @@ namespace LogicalPrograms
                     Console.WriteLine("5. Converting Temperature");
                     Temperature temperature = new Temperature();
                     temperature.Temp();
+                    break;
+                case 6:
+                    Console.WriteLine("6. Coupan Numbers");
+                    Coupan coupan = new Coupan();
+                    coupan.Dist();
                     break;
                 default:
                     break;
