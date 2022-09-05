@@ -14,6 +14,7 @@ namespace LogicalPrograms
             Console.WriteLine("5. Converting Temperature");
             Console.WriteLine("6. Coupan Numbers");
             Console.WriteLine("7. Days Of Week");
+            Console.WriteLine("8. Vending Machine");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -51,6 +52,11 @@ namespace LogicalPrograms
                     Console.WriteLine("7. Days Of Week");
                     DayOfWeek dayOfWeek = new DayOfWeek();
                     dayOfWeek.Days();
+                    break;
+                case 8:
+                    Console.WriteLine("8. Vending machine");
+                    VendingMachine vending = new VendingMachine();
+                    vending.Machine();
                     break;
                 default:
                     break;
